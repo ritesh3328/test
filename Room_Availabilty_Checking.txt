@@ -1,0 +1,5 @@
+select distinct h.id,h.name,h.hoststring,r.to_date, r.room_id from room_rate_details as r,hotels as h where r.to_date='2015-03-31 00:00:00.000' and r.hotel_id=h.id
+
+select * from room_rate_details where hotel_id=1431 and from_date>='2015-04-01 00:00:00.000'
+
+select * from room_rate_details where hotel_id=1431 and to_date>='2015-12-31 00:00:00.000'

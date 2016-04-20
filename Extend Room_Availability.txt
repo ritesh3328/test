@@ -1,0 +1,1 @@
+update room_rate_details set to_date='2015-12-31 00:00:00.000' where to_date='2014-11-30 00:00:00.000' and hotel_id=

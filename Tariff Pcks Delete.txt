@@ -1,0 +1,14 @@
+select * from hotels where id=1629
+
+select * from room_flatrate_details where hotel_id=214
+
+select * from season_pack where hotel_id=1629
+select * from season_type where hotel_id=1629
+select * from room_rate_details where hotel_id=1629
+
+delete from season_pack where hotel_id=
+delete from season_type where hotel_id=
+delete from room_rate_details where hotel_id=
+
+
+delete from room_flatrate_details where hotel_id=
